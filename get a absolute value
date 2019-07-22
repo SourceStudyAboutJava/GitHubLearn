@@ -1,0 +1,32 @@
+/**
+ * 键盘输入一个数，求出它的绝对值
+ * @author asus
+ *
+ */
+public class TestAbs01 {
+	
+	static void getAbs(int a) {
+		
+		System.out.println( Math.abs(a));
+	}
+	
+	static void  getAbs(long a) {
+	
+		System.out.println( Math.abs(a));
+	}
+	
+static void getAbs(float a) {
+		
+		System.out.println( Math.abs(a));
+	}
+	
+	static void  getAbs(double a) {
+	
+		System.out.println( Math.abs(a));
+	}
+	
+	public static void main(String[] args) {
+		getAbs(-3562.13);
+	}
+
+}
